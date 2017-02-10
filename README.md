@@ -1,7 +1,6 @@
 # pet-steps
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Playing around with Ember and Cordova
 
 ## Prerequisites
 
@@ -11,14 +10,14 @@ You will need the following things properly installed on your computer.
 * [Node.js](https://nodejs.org/) (with NPM)
 * [Bower](https://bower.io/)
 * [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/maxakuru/pet-steps` this repository
 * `cd pet-steps`
 * `npm install`
 * `bower install`
+* `ember cdv:prepare`
 
 ## Running / Development
 
@@ -41,7 +40,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+
 
 ## Further Reading / Useful Links
 

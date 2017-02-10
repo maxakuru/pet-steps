@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'pet-steps',
     environment: environment,
-    rootURL: '/',
+    rootURL: '',
     locationType: 'hash',
     EmberENV: {
       FEATURES: {
@@ -24,6 +24,7 @@ module.exports = function(environment) {
   };
 
   if (environment === 'development') {
+    ENV.locationType = 'hash';
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
