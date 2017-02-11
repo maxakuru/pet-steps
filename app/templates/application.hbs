@@ -1,50 +1,48 @@
 <section class="content app">
 	<div class="main-header">
 		Header
+		2
 	</div>
 
 	<div class="main">
 		<form class="form" role="form" {{action "calculate" on="submit"}}>
 
-			<div class="row">
-				<div class="col-sm-5">
+			<div class="row unmargin">
+				<div class="col-xs-4">
 					Human Height: 
 				</div>
 
-				<div class="col-sm-5">
-					{{input type="number" class="form-input" id="humanHeight" value=humanHeight placeholder="Inches..."}}
+				<div class="col-xs-4">
+					{{input type="number" class="form-input" id="humanHeight" required=true value=humanHeight placeholder="Inches..."}}
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-sm-5">
+			<div class="row unmargin">
+				<div class="col-xs-4">
 					Pet Height: 
 				</div>
 
-				<div class="col-sm-5">
-					{{input type="number" class="form-input" id="petHeight" value=petHeight placeholder="Inches..."}}
+				<div class="col-xs-4">
+					{{input type="number" class="form-input" id="petHeight" required=true value=petHeight placeholder="Inches..."}}
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-sm-5">
+			<div class="row unmargin">
+				<div class="col-xs-4">
 					Distance: 
 				</div>
 
-				<div class="col-sm-5">
-					{{input type="number" class="form-input" id="distance" value=distance placeholder="KMs..."}}
+				<div class="col-xs-4">
+					{{input type="number" class="form-input" id="distance" required=true value=distance placeholder="KMs..."}}
 				</div>
 			</div>
 
-			<div class="row form-button">
+			<div class="row form-button unmargin">
 				<button role="submit">Calculate</button>
 			</div>
 
-			<div class="row results">
-				<div class="col-sm-5">
-				Results:
-				</div>
-				<div class="col-sm-5">
+			<div class="row results unmargin">
+				<div class="col-xs-4">
 				<p>
 					{{results}}
 					</p>

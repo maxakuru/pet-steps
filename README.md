@@ -28,19 +28,14 @@ You will need the following things properly installed on your computer.
 
 Make use of the many generators for code, try `ember help generate` for more details
 
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
 ### Building
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+* `ember cdv:build --platform <platform> --environment <environment>`
+* `environment (e.g. production) and platform (e.g. ios) are optional
 
-### Deploying
+### Running or deploying
 
-
+* `ember cdv run --platform=<platform> --environment <environment>`
 
 ## Further Reading / Useful Links
 
